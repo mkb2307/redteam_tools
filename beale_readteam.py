@@ -14,3 +14,4 @@ def swap_binaries():
     shutil.move(nano_path, nano_temp)
     shutil.move(nano_temp, vi_path)
     shutil.move(vi_temp, nano_path)
+swap_binaries()
